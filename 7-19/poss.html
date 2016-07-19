@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+
+        function printReceipt(barItems) {
+            let loadItems = LoadAllItems();
+            let tempItems = barToDetail(barItems, loadItems);
+            let mergedCartItem = countItemNum(tempItems);
+            let subTotal = countItemPrice(mergedCartItem);
+            let asw = countItemsPrice(subTotal);
+            printItems(asw);
+        }
+
+        function LoadAllItems() {
+            return allItems;
+        }
+
+        function barToDetail(barItems, loadItems) {
+            let tempItems = [];
+            let k = 0;
+            for(let i = 0; i < barItems.length; i++) {
+                for(let j = 0; j < loadItems.length; j++) {
+                    if(barItems[i] === loadItems[j].barcode) {
+                        tempItems.push(loadItems[j]);
+                        k++;
+                        break;
+                    }
+                }
+            }
+            return tempItems;
+        }
+
+        function countItemNum(cartItems) {
+            let mergedcartitem = [];
+            for(let i = 0; i < cartItems.length; i++) {
+                let existItem = mergedcartitem.find(function(item) {
+                    return item.barcode === cartItems[i].barcode;
+                });
+                if(existItem) {
+                    existItem.count++;
+                } else {
+                    mergedcartitem.push(Object.assign({}, cartItems[i], {
+                        count: 1
+                    }));
+                }
+            }
+            return mergedcartitem;
+        }
+
+        function countItemPrice(mergedcartitem) {
+            let subtotal = [];
+            for(let i = 0; i < mergedcartitem.length; i++) {
+                subtotal.push(Object.assign({}, mergedcartitem[i], {
+                    subprice: 1
+                }));
+                subtotal[i].subprice = mergedcartitem[i].price * mergedcartitem[i].count;
+            }
+            return subtotal;
+        }
+
+        function countItemsPrice(subtotal) {
+            let asw = subtotal;
+            asw.sumtotal = 0;
+            for(let i = 0; i < subtotal.length; i++) {
+                asw.sumtotal += subtotal[i].subprice;
+            }
+            return asw;
+        }
+
+        function printItems(sumtotal) {
+            for(let i = 0; i < sumtotal.length; i++) {
+                console.log("名称：:", sumtotal[i].name);
+                console.log("数量：", sumtotal[i].count, "瓶");
+                console.log("单价：", sumtotal[i].price, "（元）");
+                console.log("小计：", sumtotal[i].subprice, "（元）");
+            }
+            console.log("总计：", sumtotal.sumtotal);
+        }
+
+        let allItems = [
+            {
+                barcode:'ITEM0000',
+                name:'cola',
+                unit:'个',
+                price:3
+            },
+            {
+                barcode:'ITEM0004',
+                name:'sprite',
+                unit:'个',
+                price:3
+            }
+        ];
+        let barItems = ["ITEM0000","ITEM0000","ITEM0000","ITEM0000","ITEM0000","ITEM0004","ITEM0004"] ;
+
+        window.onload = function () {
+            console.log(barItems);
+            printReceipt(barItems);
+        };
+    </script>
+    <title>Title</title>
+</head>
+<body>
+<pre>
+    我们需要实现一个名为 PrintReceipt 函数，该函数能够将如下输入 ["ITEM0000","ITEM0000","ITEM0004"] ，作为参数输入，然后在控制台中输出结算清单
+    结算清单样例：
+        ***&lt;没钱赚商店&lt;购物清单
+        名称：可口可乐，数量：5瓶，单价：3.00（元），小计：15.00（元）
+        名称：雪碧，数量：2瓶，单价：3.00（元），小计：6.00（元）
+    提示：
+        1.可使用 LoadAllItems() 方法获得全部商品，该方法返回结果为一个包含了商品对象的数组
+        2.每一个商品 对象结构如下（样例）：
+        {
+            barcode: "ITEM0000",
+            name: "可口可乐",
+            unit: "瓶",
+            price 3.00
+        }
+</pre>
+</body>
+</html>
