@@ -1,0 +1,85 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+
+        function printReceipt(cartItems) {
+            let mergedcartitem = countItemNum(cartItems);
+            let subtotal = countItemPrice(mergedcartitem);
+            let asw = countItemsPrice(subtotal);
+            printItems(asw);
+        }
+
+        function countItemNum(cartItems) {
+            let mergedcartitem = [];
+            for(let i = 0; i < cartItems.length; i++) {
+                let existItem = mergedcartitem.find(function(item) {
+                    return item.barcode === cartItems[i].barcode;
+                });
+                if(existItem) {
+                    existItem.count++;
+                } else {
+                    mergedcartitem.push(Object.assign({}, cartItems[i], {
+                        count: 1
+                    }));
+                }
+            }
+            return mergedcartitem;
+        }
+
+        function countItemPrice(mergedcartitem) {
+            let subtotal = [];
+            for(let i = 0; i < mergedcartitem.length; i++) {
+                subtotal.push(Object.assign({}, mergedcartitem[i], {
+                    subprice: 1
+                }));
+                subtotal[i].subprice = mergedcartitem[i].price * mergedcartitem[i].count;
+            }
+            return subtotal;
+        }
+
+        function countItemsPrice(subtotal) {
+            let asw = subtotal;
+            asw.sumtotal = 0;
+            for(let i = 0; i < subtotal.length; i++) {
+                asw.sumtotal += subtotal[i].subprice;
+            }
+            return asw;
+        }
+
+        function printItems(sumtotal) {
+            console.log(sumtotal);
+            return true;
+        }
+
+        let cartItems = [
+            {
+                barcode:'A001',
+                name:'cola',
+                unit:'个',
+                price:3
+            },
+            {
+                barcode:'A002',
+                name:'sprite',
+                unit:'个',
+                price:3
+            },
+            {
+                barcode:'A001',
+                name:'cola',
+                unit:'个',
+                price:3
+            }
+        ];
+        window.onload = function () {
+            printReceipt(cartItems);
+        };
+    </script>
+    <title>Title</title>
+</head>
+<body>
+    输入一个购物车，输出一个清单
+</body>
+</html>
