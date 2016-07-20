@@ -19,25 +19,25 @@
     }
 
     function mergeBarcode(barcodeList) {
-        let mergedList = 0;
+        let mergedList = [];
         console.log(mergedList);
         return mergedList;
     }
 
     function barToDetail(mergedList, allItems) {
-        let cartItems = 0;
+        let cartItems = [];
         console.log(mergedList);
         return cartItems;
     }
 
     function countSubtotal(cartItems) {
-        let subtotalItems = 0;
+        let subtotalItems = [];
         console.log(subtotalItems);
         return subtotalItems;
     }
 
     function promoteEachItem(subtotalItems, allPromotions) {
-        let promotedItems = 0;
+        let promotedItems = [];
         console.log(promotedItems);
         return promotedItems;
     }
@@ -49,7 +49,7 @@
     }
 
     function countSumtotal(promotedPrice) {
-        let sumtotalItems = 0;
+        let sumtotalItems = [];
         console.log(sumtotalItems);
         return sumtotalItems;
     }
@@ -59,20 +59,18 @@
         return true;
     }
 
-    window.onload() = function() {
-        let barcodeList = [
-            'ITEM000001',
-            'ITEM000001',
-            'ITEM000001',
-            'ITEM000001',
-            'ITEM000001',
-            'ITEM000003-2',
-            'ITEM000005',
-            'ITEM000005',
-            'ITEM000005'
-        ];
-        printReceipt(barcodeList);
-    };
+    let barcodeList = [
+        'ITEM000001',
+        'ITEM000001',
+        'ITEM000001',
+        'ITEM000001',
+        'ITEM000001',
+        'ITEM000003-2',
+        'ITEM000005',
+        'ITEM000005',
+        'ITEM000005'
+    ];
+    printReceipt(barcodeList);
     </script>
     <title>Title</title>
 </head>
