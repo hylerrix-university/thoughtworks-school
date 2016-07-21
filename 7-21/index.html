@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+
+        function formatTags(tags) {
+            let barcodes = [];
+            for(let tag of tags) {
+                let splitTag = tag.split("-");
+                if(splitTag.length === 2) {
+                    barcodes.push({barcode: splitTag[0], amount: Number(splitTag[1])});
+                } else {
+                    barcodes.push({barcode: splitTag[0], amount: 1});
+                }
+            }
+            return barcodes;
+        }
+
+        function mergeBarcodes(barcodes) {
+            let mergedBarcodes = [];
+            mergedBarcodes = barcodes;
+            return mergedBarcodes;
+        }
+
+        let tags = ['ITEM0','ITEM3-2','ITEM3-2.5','ITEM0','ITEM1'];
+        console.log(mergeBarcodes(formatTags(tags)));
+    </script>
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
