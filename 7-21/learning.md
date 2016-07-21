@@ -16,13 +16,4 @@ push
 split
 find
 reduce
-
-function doSomeThing(sayHello) {
-    sayHello()
-}
-
-function doSomeThing(sayHello()) {
-
-}
-
 JSON.stringify()

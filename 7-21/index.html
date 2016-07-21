@@ -4,27 +4,48 @@
     <meta charset="UTF-8">
     <script type="text/javascript">
 
+        let tags = [
+            'ITEM0',
+            'ITEM3-2',
+            'ITEM3-2.5',
+            'ITEM0',
+            'ITEM1'
+        ];
+
         function formatTags(tags) {
             let barcodes = [];
             for(let tag of tags) {
                 let splitTag = tag.split("-");
-                if(splitTag.length === 2) {
-                    barcodes.push({barcode: splitTag[0], amount: Number(splitTag[1])});
-                } else {
-                    barcodes.push({barcode: splitTag[0], amount: 1});
-                }
+                barcodes.push(
+                        {
+                            barcode: splitTag[0],
+                            amount: Number(splitTag[1]) || 1
+                        }
+                )
             }
             return barcodes;
         }
 
         function mergeBarcodes(barcodes) {
             let mergedBarcodes = [];
-            mergedBarcodes = barcodes;
+            for(let i = 0; i < barcodes.length; i++) {
+                let flag = 1;
+                for(let j = 0; j < mergedBarcodes.length; j++) {
+                    if(barcodes[i].barcode === mergedBarcodes[j].barcode) {
+                        mergedBarcodes[j].amount += barcodes[i].amount;
+                        flag = 0;
+                    }
+                }
+                if(flag === 1) {
+                    mergedBarcodes.push(barcodes[i]);
+                }
+            }
             return mergedBarcodes;
         }
 
-        let tags = ['ITEM0','ITEM3-2','ITEM3-2.5','ITEM0','ITEM1'];
-        console.log(mergeBarcodes(formatTags(tags)));
+        let formattedTags = formatTags(tags);
+        let mergedTags = mergeBarcodes(formattedTags);
+        console.log(JSON.stringify(mergedTags, null, 4));
     </script>
     <title>Document</title>
 </head>
