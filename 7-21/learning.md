@@ -6,6 +6,8 @@
 
 工程实践
 
+一个优化漂亮的代码可以成为自注释
+
 JS中的多种循环方式
 for i
 for in
@@ -15,5 +17,7 @@ assign
 push
 split
 find
+map
+filter
 reduce
 JSON.stringify()
