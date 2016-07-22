@@ -8,7 +8,7 @@ let tags = [
     'ITEM000001',
     'ITEM000003-2.5',
     'ITEM000005',
-    'ITEM000005-2',
+    'ITEM000005-2'
     ];
 
 function printReceipt() {
@@ -77,8 +77,8 @@ function getTotal(subTotalItems){
 
 function getDiscountItems(subTotalItems, promotions){
     for(let item of subTotalItems){
-         let exsitItem = promotions.find((element) => {
-             return element.barcodes.find((barcode) => {
+        let exsitItem = promotions.find((element) => {
+            return element.barcodes.find((barcode) => {
                 return barcode === item.barcode;
             });
         });
@@ -110,23 +110,10 @@ function print(subTotalItems, discountTotal, save){
     let receipt = "******<没钱赚商店>收据******\n";
     for(let item of subTotalItems){
         receipt += "名称:" + item.name + ", 数量:" + item.amount + ", 单价:" + item.price + "(元)" + ", 小计:" + item.discountSubTotal
-        + "(元)\n"
+            + "(元)\n"
     }
 
     receipt +=  ("----------------------------\n" + "总计:" + discountTotal + "(元)\n"
     + "节省:" + save + "(元)\n" + "*************");
     return receipt;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
