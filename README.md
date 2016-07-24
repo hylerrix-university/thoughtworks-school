@@ -6,6 +6,9 @@ ThoughtWorks西邮暑期培训训练集
 
 培训期间，每日尽可能更新当日作业至本仓库
 
+## 项目训练
+
+* take-out-food
 
 ## 基于 pipeline 的 tasking 方法
 
@@ -81,3 +84,5 @@ filter
 reduce
 
 JSON.stringify()
+
+对象克隆 -- 原型链/值传递/引用传递
