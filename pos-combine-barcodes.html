@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        let tags = [
+            'ITEM0',
+            'ITEM3-2',
+            'ITEM3-2.5',
+            'ITEM0',
+            'ITEM1'
+        ];
+        function formatTags(tags) {
+            let formattedTags = [];
+            for(let tag of tags) {
+                let splitTag = tag.split("-");
+                formattedTags.push(
+                        {
+                            barcode: splitTag[0],
+                            amount: Number(splitTag[1]) || 1
+                        }
+                )
+            }
+            return formattedTags;
+        }
+        function mergeBarcodes(formattedTags) {
+            let mergedBarcodes = [];
+            let tempBarcodes = formattedTags;
+            for(let i = 0; i < tempBarcodes.length; i++) {
+                let flag = 1;
+                for(let j = 0; j < mergedBarcodes.length; j++) {
+                    if(tempBarcodes[i].barcode === mergedBarcodes[j].barcode) {
+                        mergedBarcodes[j].amount += tempBarcodes[i].amount;
+                        flag = 0;
+                    }
+                }
+                if(flag === 1) {
+                    mergedBarcodes.push(tempBarcodes[i]);
+                }
+            }
+            return mergedBarcodes;
+        }
+        let formattedTags = formatTags(tags);
+        let mergedTags = mergeBarcodes(formattedTags);
+        console.log(JSON.stringify(formattedTags, null, 4));
+        console.log(JSON.stringify(mergedTags, null, 4));
+    </script>
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
