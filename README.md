@@ -47,6 +47,8 @@ has   拥有
 
 单元测试 -- jasmine
 
+JS语法测试 -- JSlint
+
 工程实践
 
 TDD 与 BDD
