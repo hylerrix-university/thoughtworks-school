@@ -36,7 +36,7 @@ has   拥有
 
 ### 零散笔记
 
-拿到一个开发需求 --> 画 pipeline 图 --> 写 tasking 测试函数 --> 写核心函数 --> 进行测试。
+拿到一个开发需求 --> 画 pipeline 图 --> 写 tasking 测试函数 --> 写核心函数 --> 进行测试
 
 每个函数的圈复杂度要有所控制（每有一个if/for/while等圈复杂度加一），圈复杂度越小越利于维护
 
@@ -50,24 +50,34 @@ has   拥有
 
 一个漂亮/优化符合命名/使用规范的代码可以成为自注释（不需要写注释）
 
-代码是给人看的，偶尔在机器上跑一下。
+代码是给人看的，偶尔在机器上跑一下
 
-Atwood定律：Any application that can be written in JavaScript,will eventually be written in JavaScript。
+Atwood定律：Any application that can be written in JavaScript,will eventually be written in JavaScript
 
 马丁·福勒：计算机科学最难应付的两件事——命名和缓存失效。
 
 ## JS要点
 
 JS中的多种循环方式
+
 for i
+
 for in
+
 for of
 
 assign
+
 push
+
 split
+
 find
+
 map
+
 filter
+
 reduce
+
 JSON.stringify()
