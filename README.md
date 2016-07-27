@@ -67,30 +67,3 @@ Atwood定律：Any application that can be written in JavaScript,will eventually
 
 马丁·福勒：计算机科学最难应付的两件事——命名和缓存失效。
 
-## JS要点
-
-JS中的多种循环方式
-
-for i
-
-for in
-
-for of
-
-assign
-
-push
-
-split
-
-find
-
-map
-
-filter
-
-reduce
-
-JSON.stringify()
-
-对象克隆 -- 原型链/值传递/引用传递
