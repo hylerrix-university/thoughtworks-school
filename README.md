@@ -10,6 +10,8 @@ ThoughtWorks西邮暑期培训训练集
 
 * take-out-food
 
+* dojo
+
 ## 基于 pipeline 的 tasking 方法
 
 ### pipeline 画图规范要点
@@ -26,16 +28,16 @@ ThoughtWorks西邮暑期培训训练集
 
 ### 常见动词
 
-get 获取
-generate 创建 生成
-find 获取集合中的子集
-calculate 计算
-merge 合并
-split 拆分
-
-//布尔值
-is    是...
-has   拥有
+|动词|解释|
+|--|--|
+|get|获取|
+|generate|创建 生成|
+|find|获取集合中的子集|
+|calculate|计算|
+|merge|merge|
+|split|拆分| 
+|is|是...|
+|has|拥有|
 
 ### 零散笔记
 
@@ -67,3 +69,13 @@ Atwood定律：Any application that can be written in JavaScript,will eventually
 
 马丁·福勒：计算机科学最难应付的两件事——命名和缓存失效。
 
+
+持续交付
+
+* 旧的不变
+
+* 新的创建
+
+* 单步切换
+
+* 旧的再见
