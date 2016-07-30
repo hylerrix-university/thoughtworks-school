@@ -79,3 +79,17 @@ Atwood定律：Any application that can be written in JavaScript,will eventually
 * 单步切换
 
 * 旧的再见
+
+
+面向对象
+
+* 三大基石/五大原则
+
+* 对象/类/实例
+
+* 封装/继承
+
+* 单一职责
+
+怎样的测试算是好的测试
+
