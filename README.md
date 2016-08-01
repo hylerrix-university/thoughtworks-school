@@ -70,7 +70,7 @@ Atwood定律：Any application that can be written in JavaScript,will eventually
 马丁·福勒：计算机科学最难应付的两件事——命名和缓存失效。
 
 
-持续交付
+持续交付（重构）
 
 * 旧的不变
 
@@ -93,3 +93,19 @@ Atwood定律：Any application that can be written in JavaScript,will eventually
 
 怎样的测试算是好的测试
 
+5W1H分析法 -- 六何分析法
+
+* 1932年，美国政治学家拉斯维尔提出“5W分析法”，后经过人们的不断运用和总结，逐步形成了一套成熟的“5W+IH”模式。
+
+* what
+* where
+* when
+* who
+* why
+
+* how
+
+HTTP
+
+  协议
+  端口
