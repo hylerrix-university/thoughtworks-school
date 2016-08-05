@@ -6,49 +6,16 @@
 金数据 https://jinshuju.net/f/lxM30L 每日总结
 
 
-node 安装 npm install init
-
-装 nvm npm nrm node （nrm ls      nrm use *）
-npm install nrm -g
-
-npm install jasmine -D
-./node_modules/.bin/jasmine (init)
-vim package.json   test:”jasmine”
-npm test
-webstorm -> tools -> creatcommand -> storm
-
-const * = require(“”);
-module.exports = 函数名(对象);
-    
-谷歌插件
-postman
-octotree
-远方 New Tab
-xmind
+express 版的 postnet
+    5种发送参数的方式   —   5个小demo
         
-
-    express 版的 postnet
-        5种发送参数的方式   —   5个小demo
+express superangent supertest    
     
-    express superangent supertest
-    
-    
-    git  逐步提交 版本回退 单个文件分开提交
-    
-    格式化代码
-    
-    结对编程
-    
-    trello
-
-    函数读取变量的位置
-        全局变量
-        参数
-        文件流
 
 
+# 零散笔记
 
-### 零散笔记
+## 第一周
 
 拿到一个开发需求 --> 画 pipeline 图 --> 写 tasking 测试函数 --> 写核心函数 --> 进行测试
 
@@ -78,6 +45,15 @@ Atwood定律：Any application that can be written in JavaScript,will eventually
 
 马丁·福勒：计算机科学最难应付的两件事——命名和缓存失效。
 
+函数读取变量的位置
+    全局变量
+    参数
+    文件流
+    文件流
+    
+### 分享会
+
+## 第二周
 
 持续交付（重构）
 
@@ -88,7 +64,6 @@ Atwood定律：Any application that can be written in JavaScript,will eventually
 * 单步切换
 
 * 旧的再见
-
 
 面向对象
 
@@ -111,10 +86,48 @@ Atwood定律：Any application that can be written in JavaScript,will eventually
 * when
 * who
 * why
-
 * how
+    
+格式化代码
+    
+结对编程
+    
+trello
 
 HTTP
 
   协议
   端口
+  
+### 分享会
+  
+## 第三周
+  
+消息队列
+
+同步异步
+
+git  逐步提交 版本回退 单个文件分开提交
+
+node 安装 npm install init
+
+装 nvm npm nrm node （nrm ls      nrm use *）
+npm install nrm -g
+
+npm install jasmine -D
+./node_modules/.bin/jasmine (init)
+vim package.json   test:”jasmine”
+npm test
+webstorm -> tools -> creatcommand -> storm
+
+const * = require(“”);
+module.exports = 函数名(对象);
+    
+谷歌插件
+postman
+octotree
+远方 New Tab
+xmind
+
+### 分享会
+
