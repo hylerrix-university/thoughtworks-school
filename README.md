@@ -24,33 +24,31 @@
 
 * [recruiting-system](https://github.com/thoughtworks-academy/recruiting-system)
 
-## 第一周
+## 仓库目录介绍
 
-## 第二周
+post-basics-train
 
-## 第三周
+week-summary
 
-thoughtworksXUPT2016
+整理自身（分周）
+node 安装 npm install init
 
-    整理自身（分周）
-    node 安装 npm install init
+装 nvm npm nrm node （nrm ls      nrm use *）
+npm install nrm -g
 
-    装 nvm npm nrm node （nrm ls      nrm use *）
-    npm install nrm -g
+npm install jasmine -D
+./node_modules/.bin/jasmine (init)
+vim package.json   test:”jasmine”
+npm test
+webstorm -> tools -> creatcommand -> storm
 
-    npm install jasmine -D
-    ./node_modules/.bin/jasmine (init)
-    vim package.json   test:”jasmine”
-    npm test
-    websterm -> tools -> creatcommand -> storm
-
-    const * = require(“”);
-    module.exports = 函数名(对象);
+const * = require(“”);
+module.exports = 函数名(对象);
     
-    谷歌插件
-        postman
-        octotree
-        远方 New Tab
+谷歌插件
+postman
+octotree
+远方 New Tab
         
     express 版的 postnet
         5种发送参数的方式   —   5个小demo
