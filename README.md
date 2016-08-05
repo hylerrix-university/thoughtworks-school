@@ -26,8 +26,14 @@
 
 ## 仓库目录介绍
 
-post-basics-train
+enter-examination
+    报名在线JavaScript笔试题
+
+pos-basics-train
+    第一周 pos 机基础训练
 
 week-summary
+    每周周末汇总
 
 javascript-learning
+    JS学习笔记
