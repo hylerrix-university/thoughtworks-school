@@ -123,6 +123,10 @@ webstorm -> tools -> creatcommand -> storm
 
 const * = require(“”);
 module.exports = 函数名(对象);
+
+package.json 的作用 -- 不用把 node_moudle 上传上去
+
+.gitignore
     
 谷歌插件
 postman
