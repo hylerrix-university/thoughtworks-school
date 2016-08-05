@@ -5,15 +5,12 @@
 
 金数据 https://jinshuju.net/f/lxM30L 每日总结
 
-
 express 版的 postnet
     5种发送参数的方式   —   5个小demo
         
 express superangent supertest    
-    
 
 同学您好，感谢您报名并参与2016年ThoughtWorks西安邮电大学暑期特训营线上测试。很高新的通知您，您已成功通过测试！具体名单可前往位于计算机学院IT实训中心的卓越女生实验室门口查看，我们在后续几周内会持续向您更新后续事宜。请您务必填写该调查表确认您的参与意向： https://jinshuju.net/f/GdauuD【思特沃克中国】
-
 
 # 零散笔记
 
