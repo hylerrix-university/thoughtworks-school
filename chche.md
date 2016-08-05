@@ -108,6 +108,7 @@ HTTP
 同步异步
 
 git  逐步提交 版本回退 单个文件分开提交
+git commit —amend
 
 node 安装 npm install init
 
