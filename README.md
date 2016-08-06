@@ -10,6 +10,8 @@
 
 ## 项目训练
 
+* [pre-pos](https://github.com/twa-camp/pre-pos)
+
 * [take-out-food](https://github.com/freewind/take-out-food)
 
 * [dojo](https://github.com/hkliya/dojo)
