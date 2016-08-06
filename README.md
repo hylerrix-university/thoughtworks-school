@@ -37,3 +37,11 @@ week-summary
 
 javascript-learning
     JS学习笔记
+    
+## 电子书
+
+[Linux 新手指南](http://thoughtworks-academy.github.io/linux-guide/zh-hans/)
+
+[推荐书籍](https://github.com/iamcoach/books)
+
+[js oo训练](https://github.com/iamcoach/oo-basic-step-by-step)
