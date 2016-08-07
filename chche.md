@@ -16,7 +16,7 @@ express superangent supertest
 
 ## 第一周
 
-拿到一个开发需求 --> 画 pipeline 图 --> 写 tasking 测试函数 --> 写核心函数 --> 进行测试
+拿到一个开发需求 --> 画 pipeline 图 --> 写 tasking 测试函ls数 --> 写核心函数 --> 进行测试
 
 每个函数的圈复杂度要有所控制（每有一个if/for/while等圈复杂度加一），圈复杂度越小越利于维护
 
@@ -98,6 +98,10 @@ HTTP
   协议
   端口
   
+命令行
+
+调试
+
 ### 分享会
   
 ## 第三周
@@ -132,6 +136,11 @@ postman
 octotree
 远方 New Tab
 xmind
+
+消息队列
+异步 回调
+
+跨域   express application 要和 index.html 在一起
 
 ### 分享会
 
