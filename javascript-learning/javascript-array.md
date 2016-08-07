@@ -1,5 +1,9 @@
 ## JS 处理数组多种方法
 
+> js 中的数据类型分为两大类：原始类型和对象类型。
+  原始类型包括：数值、字符串、布尔值、null、undefined
+  对象类型包括：对象即是属性的集合，当然这里又两个特殊的对象----函数（js中的一等对象）、数组（键值的有序集合）。
+
 ### 数组元素的添加
 
 arrayObj.push([item1 [item2 [. . . [itemN ]]]]);
@@ -46,6 +50,35 @@ arrayObj.reverse();
 arrayObj.sort(); 
 对数组元素排序，返回数组地址
 
+### 数组元素的插入
+
+arrayObj.splice(insertPos,0, [item1[, item2[, . . . [,itemN]]]]);
+从 insertPos 位置插入指定的item元素,0代表删除0个元素,返回空数组
+
+### 数组元素的替换
+arrayObj.splice(insertPos,replaceCount, [item1[, item2[, . . . [,itemN]]]]);
+从 insertPos 位置删除 replaceCount 个元素,再从 insertPos 位置添加指定的item元素,数组形式返回被删除的元素
+
+### 数组元素的位置
+
+arrayObj.indexOf(findThing,start);
+从要查找的起点(可选) start 开始向后找要查找的项 findThing ,找的准则是全等,找到则返回该值的位置,找不到则返回-1
+
+arrayObj.lastIndexOf(findThing,number)
+从要查找的起点(可选) start 开始向前找要查找的项 findThing ,找的准则是全等,找到则返回该值的位置,找不到则返回-1
+
+### 数组元素的迭代
+
+every
+
+filter
+
+forEach
+
+map
+
+some
+
 ### 常见的数组操作
 
 生成
@@ -53,7 +86,6 @@ arrayObj.sort();
 去重
 
 统计个数
-
 
 ### 数组元素的字符串化
 
@@ -84,8 +116,3 @@ Array.prototype.reduce
   reduce()可以实现一个累加器的功能，将数组的每个值（从左到右）将其降低到一个值
   场景： 统计一个数组中有多少个不重复的单词
 Array.prototype.reduceRight
-
-js 中的数据类型分为两大类：原始类型和对象类型。
-
-原始类型包括：数值、字符串、布尔值、null、undefined
-对象类型包括：对象即是属性的集合，当然这里又两个特殊的对象----函数（js中的一等对象）、数组（键值的有序集合）。
