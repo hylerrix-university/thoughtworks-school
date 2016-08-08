@@ -69,15 +69,28 @@ arrayObj.lastIndexOf(findThing,number)
 
 ### 数组元素的迭代
 
-every
+arrayObj.every()
+对数组中的每一项运行给定的函数,如果该函数对每一项都返回 true ,则返回 true
 
-filter
+arrayObj.filter()
+对数组中的每一项运行给定的函数,返回该函数会返回 true 的项组成的数组
 
-forEach
+arrayObj.forEach()
+对数组中的每一项运行给定的函数,这个方法没有返回值
 
-map
+arrayObj.map()
+对数组中的每一项运行给定的函数,返回每次函数调用的结果组成的数组
 
-some
+arrayObj.some()
+对数组中的每一项运行给定的函数,如果该函数对任一项返回 true ,则返回 true 
+
+### 数组元素的归并
+
+arrayObj.reduce(prev, cur, index, array)
+从数组的第一项开始,逐个便利到最后,四个参数分别为前一个值,当前值,项的索引和数组对象,函数返回的任何值会作为第一个参数自动传给下一项
+000
+arrayObj.reduceRight()
+从数组的最后开始,逐个便利到第一项,四个参数分别为前一个值,当前值,项的索引和数组对象,函数返回的任何值会作为第一个参数自动传给下一项
 
 ### 常见的数组操作
 
