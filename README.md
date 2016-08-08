@@ -53,3 +53,11 @@ javascript-learning
 [git 基础知识](https://github.com/iamcoach/git)
 
 [操作系统背景知识和发展历程介绍](https://github.com/iamcoach/os-intro)
+
+## 鸣谢
+
+感谢以下学长学姐的笔记贡献,以及可爱的其他同学们,还有 ThoughtWorks 老师们这整个暑假的热情陪伴。
+
+[@Demo-tong](https://github.com/Demo-tong)
+
+[@Sundaisy1213](https://github.com/Sundaisy1213)
