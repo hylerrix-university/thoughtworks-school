@@ -24,6 +24,8 @@
 
 * [collection-calculate-camp](https://github.com/iamcoach/collection-calculate-camp)
 
+* [demo]()
+
 * [recruiting-system](https://github.com/thoughtworks-academy/recruiting-system)
 
 ## 仓库目录介绍
