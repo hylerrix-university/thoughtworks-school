@@ -24,7 +24,7 @@
 
 * [collection-calculate-camp](https://github.com/iamcoach/collection-calculate-camp)
 
-* [demo]()
+* [demo](#)
 
 * [recruiting-system](https://github.com/thoughtworks-academy/recruiting-system)
 
@@ -32,15 +32,18 @@
 
 enter-examination
     报名在线JavaScript笔试题
+    
+framework-learning
+    框架学习笔记(jasmine,express,bootstrap,jquery等)
+
+javascript-learning
+    JS学习笔记
 
 pos-basics-train
     第一周 pos 机基础训练
 
 week-summary
     每周周末汇总
-
-javascript-learning
-    JS学习笔记
     
 ## TW 电子书
 
