@@ -24,7 +24,9 @@
 
 * [collection-calculate-camp](https://github.com/iamcoach/collection-calculate-camp)
 
-* [demo](#)
+* [webpack-base](https://github.com/react-redux-practise/webpack-base)
+
+* [pendding-demo-use-async-action](https://github.com/react-redux-practise/pendding-demo-use-async-action)
 
 * [recruiting-system](https://github.com/thoughtworks-academy/recruiting-system)
 
@@ -59,8 +61,4 @@ week-summary
 
 ## 鸣谢
 
-感谢以下学长学姐的笔记贡献,以及可爱的其他同学们,还有 ThoughtWorks 老师们这整个暑假的热情陪伴。
-
-[@Demo-tong](https://github.com/Demo-tong)
-
-[@Sundaisy1213](https://github.com/Sundaisy1213)
+感谢各位学长学姐的笔记贡献,还有 ThoughtWorks 老师们这整个暑假的热情陪伴。
