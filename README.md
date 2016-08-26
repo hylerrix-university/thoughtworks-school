@@ -8,46 +8,47 @@
 
 培训期间，每日尽可能更新当日进度至本仓库
 
+培训总结的分享文章详见 -- [一场有趣的 TDD 编程之旅]() (多图预警,爆照预警)
+
+## 知识脑图
+
+![0.0](http://note.youdao.com/yws/public/resource/6ba53bd3621a59667d9e84d5f90d99d0/xmlnote/7B0D1D3853954A289655E4292FF3DFEB/5224)
+
 ## 项目训练
 
-* [pre-pos](https://github.com/twa-camp/pre-pos)
+||||
+|-------|--------|-------|-------|
+|[dojo](https://github.com/hkliya/dojo)|[pre-pos](https://github.com/twa-camp/pre-pos)|[postnet](https://github.com/linwenjun/postnet)|
+|[take-out-food](https://github.com/freewind/take-out-food)|[webpack-base](https://github.com/react-redux-practise/webpack-base)|[big-class-test-2](https://github.com/twa-camp-2016/big-class-test-2)|
+|[collection-calculate-camp](https://github.com/iamcoach/collection-calculate-camp)|[postnet-base-for-big-class-room](https://github.com/twa-camp-2016/postnet-base-for-big-classroom)|[pendding-demo-use-async-action](https://github.com/react-redux-practise/pendding-demo-use-async-action)|
+|[login-demo](https://github.com/react-redux-practise/login-demo)|[recruiting-system](https://github.com/thoughtworks-academy/recruiting-system)||
 
-* [take-out-food](https://github.com/freewind/take-out-food)
-
-* [dojo](https://github.com/hkliya/dojo)
-
-* [big-class-test-2](https://github.com/twa-camp-2016/big-class-test-2)
-
-* [postnet](https://github.com/linwenjun/postnet)
-
-* [postnet-base-for-big-class-room](https://github.com/twa-camp-2016/postnet-base-for-big-classroom)
-
-* [collection-calculate-camp](https://github.com/iamcoach/collection-calculate-camp)
-
-* [webpack-base](https://github.com/react-redux-practise/webpack-base)
-
-* [pendding-demo-use-async-action](https://github.com/react-redux-practise/pendding-demo-use-async-action)
-
-* [recruiting-system](https://github.com/thoughtworks-academy/recruiting-system)
+![0.0](http://note.youdao.com/yws/public/resource/6ba53bd3621a59667d9e84d5f90d99d0/xmlnote/7F7FB337612D4C10AA78EE87EC3C9421/5203)
 
 ## 仓库目录介绍
 
 enter-examination
-    报名在线JavaScript笔试题
-    
+
+    ThoughtWorks西邮暑期特训营 -- JavaScript在线笔试题
+
 framework-learning
-    框架学习笔记(jasmine,express,bootstrap,jquery等)
+
+    框架学习概要(Jasmine, Express, BootStrap, React等)
 
 javascript-learning
-    JS学习笔记
+
+    JavaScript 学习笔记
 
 pos-basics-train
+
     第一周 pos 机基础训练
 
 week-summary
+
     每周周末汇总
+
     
-## TW 电子书
+## ThoughtWorks 推荐电子文档
 
 [Linux 新手指南](http://thoughtworks-academy.github.io/linux-guide/zh-hans/)
 
