@@ -1,6 +1,6 @@
-## 基于 pipeline 的 tasking 方法 
+# 基于 pipeline 的 tasking 方法 
 
- ### pipeline 画图规范要点  
+ ## pipeline 画图规范要点  
 
 * 用动词和小驼峰法命名函数 
 
@@ -12,9 +12,7 @@
 
   * 图中只需出现英文
 
-
-
-  ### 常见动词  
+  ## 常见动词  
 
 |动词|解释| 
 |--|--|
@@ -26,3 +24,7 @@
 |split|拆分|
 |is|是...| 
 |has|拥有|
+
+## Tasking 实例
+
+![Tasking 图最终很棒的思路逻辑](http://ocimfi0gc.bkt.clouddn.com/Tasking%20%E5%9B%BE%E6%9C%80%E7%BB%88%E5%BE%88%E6%A3%92%E7%9A%84%E6%80%9D%E8%B7%AF%E9%80%BB%E8%BE%91.jpeg)
