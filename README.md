@@ -66,6 +66,12 @@ week-summary
 
 [操作系统背景知识和发展历程介绍](https://github.com/iamcoach/os-intro)
 
+## ThoughtWorks 西邮暑期结营合影
+
+> 用不说再见。。
+
+![ThoughtWorks 西邮暑期结营合影](http://ocimfi0gc.bkt.clouddn.com/ThoughtWorks%20%E8%A5%BF%E9%82%AE%E6%9A%91%E6%9C%9F%E7%BB%93%E8%90%A5%E5%90%88%E5%BD%B1.jpeg)
+
 ## 鸣谢
 
 感谢各位学长学姐的笔记贡献,还有 ThoughtWorks 老师们这整个暑假的热情陪伴。
