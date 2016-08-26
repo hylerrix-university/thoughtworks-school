@@ -70,7 +70,7 @@ week-summary
 
 > 永不说再见。。
 
-![ThoughtWorks 西邮暑期结营合影](http://ocimfi0gc.bkt.clouddn.com/ThoughtWorks%20%E8%A5%BF%E9%82%AE%E6%9A%91%E6%9C%9F%E7%BB%93%E8%90%A5%E5%90%88%E5%BD%B1.jpg)
+![ThoughtWorks 西邮暑期结营合影](http://ocimfi0gc.bkt.clouddn.com/ThoughtWorks%20%E8%A5%BF%E9%82%AE%E6%9A%91%E6%9C%9F%E7%BB%93%E8%90%A5%E5%90%88%E5%BD%B1-%E5%BE%AE%E7%BC%A9.png)
 
 ## 鸣谢
 
