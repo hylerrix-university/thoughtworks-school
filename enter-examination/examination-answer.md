@@ -1,8 +1,10 @@
-# ThoughtWorks 暑期特训营（JS测试题）
+# ThoughtWorks西邮暑期特训营 -- JavaScript在线笔试题
 
-标签（空格分隔）： 面试笔试
+## 声明
 
----
+1. 这里重要记录的是题目而不是自己当时写的答案,很多解答都可以用高阶函数解决而这里只用到了简单的语句。
+2. 这八个测试题来自于 [collection-calculate-camp](https://github.com/iamcoach/collection-calculate-camp),里面有更多的 JS 练习题
+3. 在线 JS 答题系统的源码仓库为: [recruiting-system](https://github.com/thoughtworks-academy/recruiting-system),这个系统可以自动拖拽指定的 Github 仓库并运行程序后返回运行结果
 
 ## 第一题
 
