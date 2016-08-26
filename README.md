@@ -12,11 +12,7 @@
 
 ## 知识脑图
 
-![0.0](http://note.youdao.com/yws/public/resource/6ba53bd3621a59667d9e84d5f90d99d0/xmlnote/7B0D1D3853954A289655E4292FF3DFEB/5224)
-
-![0.0](http://ww3.sinaimg.cn/bmiddle/005vaCFkgw1f773ha23cwj31g80rze39.jpg)
-
-![](http://a.hiphotos.baidu.com/zhidao/pic/item/72f082025aafa40fa38bfc55a964034f79f019ec.jpg)
+![0.0](http://ociilqbxq.bkt.clouddn.com/ThoughtWorks%20%E8%A5%BF%E9%82%AE%E6%9A%91%E6%9C%9F%E5%9F%B9%E8%AE%AD%E8%A6%81%E7%82%B9.png)
 
 ## 项目训练
 
