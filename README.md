@@ -10,11 +10,13 @@
 
 培训总结的分享文章详见 -- [一场有趣的 TDD 编程之旅]() (多图预警,爆照预警)
 
-## 知识脑图
+## 六周培训要点脑图
 
-![0.0](http://ociilqbxq.bkt.clouddn.com/ThoughtWorks%20%E8%A5%BF%E9%82%AE%E6%9A%91%E6%9C%9F%E5%9F%B9%E8%AE%AD%E8%A6%81%E7%82%B9.png)
+![ThoughtWorks 西邮暑期培训要点](http://ocimfi0gc.bkt.clouddn.com/ThoughtWorks%20%E8%A5%BF%E9%82%AE%E6%9A%91%E6%9C%9F%E5%9F%B9%E8%AE%AD%E8%A6%81%E7%82%B9.png)
 
 ## 项目训练
+
+  这六周断断续续从以下仓库克隆过,学习过,大部分都是 ThoughtWorks 老师写的。
 
 ||||
 |-------|--------|-------|-------|
@@ -22,8 +24,6 @@
 |[take-out-food](https://github.com/freewind/take-out-food)|[webpack-base](https://github.com/react-redux-practise/webpack-base)|[big-class-test-2](https://github.com/twa-camp-2016/big-class-test-2)|
 |[collection-calculate-camp](https://github.com/iamcoach/collection-calculate-camp)|[postnet-base-for-big-class-room](https://github.com/twa-camp-2016/postnet-base-for-big-classroom)|[pendding-demo-use-async-action](https://github.com/react-redux-practise/pendding-demo-use-async-action)|
 |[login-demo](https://github.com/react-redux-practise/login-demo)|[recruiting-system](https://github.com/thoughtworks-academy/recruiting-system)||
-
-![0.0](http://note.youdao.com/yws/public/resource/6ba53bd3621a59667d9e84d5f90d99d0/xmlnote/7F7FB337612D4C10AA78EE87EC3C9421/5203)
 
 ## 仓库目录介绍
 
@@ -41,13 +41,19 @@ javascript-learning
 
 pos-basics-train
 
-    第一周 pos 机基础训练
+    第一周 pos 机的基础训练
+
+project-train
+
+    展示了我们小组的项目截图,对于其他小组想要加入记录的可以 Fork 本仓库并将自己的网站内容写到一个 Markdown 文件中并保存至 project-train 目录中进行 Pull Request
 
 week-summary
 
     每周周末汇总
 
-    
+## 经典的 Tasking 图和原型图
+![经典的 Tasking 和原型图](http://ocimfi0gc.bkt.clouddn.com/%E5%9C%A8%E7%BA%BF%E9%82%AE%E7%BC%96%E8%BD%AC%E7%BC%96%E7%A0%81.png)
+
 ## ThoughtWorks 推荐电子文档
 
 [Linux 新手指南](http://thoughtworks-academy.github.io/linux-guide/zh-hans/)
