@@ -4,6 +4,8 @@
 
 [ThoughtWorks 西安邮电大学暑期特训营（2016）报名点](https://jinshuju.net/f/rHT9Fo)
 
+[ThoughtWorks 暑期特训营在线笔试题](http://academy.thoughtworks.cn/)
+
 > 同学您好，感谢您报名并参与2016年ThoughtWorks西安邮电大学暑期特训营线上测试。很高新的通知您，您已成功通过测试！具体名单可前往位于计算机学院IT实训中心的卓越女生实验室门口查看，我们在后续几周内会持续向您更新后续事宜。
 
 就这样开启了软件工程非凡之旅。
