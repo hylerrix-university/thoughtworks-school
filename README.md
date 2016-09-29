@@ -2,6 +2,8 @@
 
 > [一分钟了解 ThoughtWorks](http://mp.weixin.qq.com/s?__biz=MzA4MjU3Mzg0MA==&mid=400967040&idx=3&sn=3c7d64f4feb039131f2829880651e08c&scene=1&srcid=0910Hcs566ODiOxDZeO84Rvc#rd)
 
+> [我要去印度参加一场精神与世界的狂欢！](http://mp.weixin.qq.com/s?__biz=MzI0MDUyNDAxMQ==&mid=2247483759&idx=1&sn=35f5938c8c313c12e580d521a9fdfbd8&scene=2&srcid=0909JGNPut7fNuJYmfTIbY71#rd)
+
 ## ThoughtWorks 西安邮电大学暑期特训营（2016）训练集
 
 [ThoughtWorks 西安邮电大学暑期特训营（2016）报名点](https://jinshuju.net/f/rHT9Fo)
