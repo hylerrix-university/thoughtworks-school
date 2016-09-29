@@ -1,5 +1,7 @@
 # ThoughtWorks-XUPT2016-Programming
 
+> [一分钟了解 ThoughtWorks](http://mp.weixin.qq.com/s?__biz=MzA4MjU3Mzg0MA==&mid=400967040&idx=3&sn=3c7d64f4feb039131f2829880651e08c&scene=1&srcid=0910Hcs566ODiOxDZeO84Rvc#rd)
+
 ## ThoughtWorks 西安邮电大学暑期特训营（2016）训练集
 
 [ThoughtWorks 西安邮电大学暑期特训营（2016）报名点](https://jinshuju.net/f/rHT9Fo)
