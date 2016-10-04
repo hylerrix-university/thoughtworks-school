@@ -2,24 +2,24 @@
 
 ## Chrome DevTools
 
-![Chrome DevTools](http://ocimfi0gc.bkt.clouddn.com/ChromeDevToolsExample.jpeg)
+![Chrome DevTools](./public-picture/ChromeDevToolsExample.jpeg)
 
 ## React Developer Tools
 
-![React Developer Tools](http://ocimfi0gc.bkt.clouddn.com/ReactDeveloperToolsExample.jpeg)
+![React Developer Tools](./public-picture/ReactDeveloperToolsExample.jpeg)
 
 ## Trello Card Numbers
 
-![Trello Card Numbers](http://ocimfi0gc.bkt.clouddn.com/TrelloCardNumbersExample.jpeg)
+![Trello Card Numbers](./public-picture/TrelloCardNumbersExample.jpeg)
 
 ## Octotree
 
-![Octotree](http://ocimfi0gc.bkt.clouddn.com/OctotreeExample.jpeg)
+![Octotree](./public-picture/OctotreeExample.jpeg)
 
 ## Postman
 
-![Postman](http://ocimfi0gc.bkt.clouddn.com/PostmanExample.jpeg)
+![Postman](./public-picture/PostmanExample.jpeg)
 
 ## Gliffy Diagrams
 
-![Gliffy Diagrams](http://ocimfi0gc.bkt.clouddn.com/GliffyDiagramsExample.jpeg)
+![Gliffy Diagrams](./public-picture/GliffyDiagramsExample.jpeg)

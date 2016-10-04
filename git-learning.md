@@ -2,4 +2,4 @@
 
 > 近期更新
 
-![git-cheatsheet](http://ocimfi0gc.bkt.clouddn.com/git-cheatsheet.png)
+![git-cheatsheet](./public-picture/git-cheatsheet.png)

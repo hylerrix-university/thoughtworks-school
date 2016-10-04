@@ -20,7 +20,7 @@
 
 ## 六周培训要点脑图
 
-![ThoughtWorks 西邮暑期培训要点](http://ocimfi0gc.bkt.clouddn.com/ThoughtWorks%20%E8%A5%BF%E9%82%AE%E6%9A%91%E6%9C%9F%E5%9F%B9%E8%AE%AD%E8%A6%81%E7%82%B9.png)
+![ThoughtWorks 西邮暑期培训要点](../ThoughtWorks 西邮暑期培训要点.png)
 
 ## 项目训练
 
@@ -60,7 +60,7 @@ week-summary
     每周周末汇总
 
 ## 经典的 Tasking 图和原型图
-![经典的 Tasking 和原型图](http://ocimfi0gc.bkt.clouddn.com/%E5%9C%A8%E7%BA%BF%E9%82%AE%E7%BC%96%E8%BD%AC%E7%BC%96%E7%A0%81.png)
+![在线邮编转编码](./public-picture/在线邮编转编码.png)
 
 ## ThoughtWorks 推荐电子文档
 
@@ -78,7 +78,7 @@ week-summary
 
 > 永不说再见。。
 
-![ThoughtWorks 西邮暑期结营合影](http://ocimfi0gc.bkt.clouddn.com/ThoughtWorks%20%E8%A5%BF%E9%82%AE%E6%9A%91%E6%9C%9F%E7%BB%93%E8%90%A5%E5%90%88%E5%BD%B1-%E5%BE%AE%E7%BC%A9.png)
+![ThoughtWorks 西邮暑期结营合影](./public-picture/ThoughtWorks 西邮暑期结营合影-微缩.png)
 
 ## 鸣谢
 
