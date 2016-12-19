@@ -20,7 +20,7 @@
 
 ## 六周培训要点脑图
 
-![ThoughtWorks 西邮暑期培训要点](../ThoughtWorks 西邮暑期培训要点.png)
+![ThoughtWorks 西邮暑期培训要点](./public-picture/ThoughtWorks 西邮暑期培训要点.png)
 
 ## 项目训练
 
